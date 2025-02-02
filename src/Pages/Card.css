@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card-sec{
+    background-color: rgb(23, 23, 23);
+    padding: 100px 43px;
+    position: relative;
+}
+.tailored-btn{
+    width: 124.208px;
+    height: 30px;
+    background-color: rgb(113, 202, 0);
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+.prec-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prec-div h3{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1.25px;
+    font-family: play;
+    color: white;
+}
+.prec-div p{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.card-cont{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 45px;
+    column-gap: 25px;
+}
+.card-me{
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+.card-div{
+    width: 255px;
+    height: 225.865px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-div img{
+    width: 239px;
+    height: 158.9px;
+    border-radius: 15px;
+}
+.card-div h5{
+    font-size: 17px;
+    font-weight: 800;
+    color: rgb(21, 21, 21);
+}
+.card-div p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.weight-txt{
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.battery-cont{
+    width: 239px;
+    margin-top: 5px;
+}
+.battery-cont p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.battery-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.battery-reader{
+    width: 239px;
+    height: 14px;
+    display: flex;
+    margin-top: 5px;
+}
+.battery-left{
+    width: 239px;
+    height: 10px;
+    background-color: rgb(113, 202, 0);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.battery-right{
+    width: 80px;
+    height: 10px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.modal-sec{
+    /* width: 700px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* backdrop-filter: blur(12px); */
+    /* border: 1px solid gainsboro; */
+}
+.modal-ass{
+    padding: 20px 30px;
+    height: 90vh;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    background-color: white;
+}
+.modal-div{
+    display: flex;
+    gap: 20px;
+}
+.evtol-model{
+    font-size: 27px;
+    font-weight: 700px;
+    margin-top: 12px;
+}
+.light-weight{
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(72, 70, 70);
+}
+.weight-text{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.weight-innertxt{
+    font-size: 18px;
+    font-weight: 700;
+}
+.battery-conts{
+    width: 300px;
+    margin-top: 20px;
+}
+.battery-conts p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.battery-txts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.battery-readers{
+    width: 300px;
+    height: 14px;
+    display: flex;
+    margin-top: 5px;
+}
+.battery-lefts{
+    width: 279px;
+    height: 10px;
+    background-color: rgb(113, 202, 0);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.battery-rights{
+    width: 80px;
+    height: 10px;
+    background-color: rgb(243, 241, 241);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.checkout-btn{
+    width: 300px;
+    height: 45px;
+    background-color: rgb(113, 202, 0);
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+}
+.heah{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.health-modal{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.health-modal h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.health-modal img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}

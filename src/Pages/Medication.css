@@ -1,0 +1,77 @@
+.health-sec{
+    padding: 50px 20px;
+}
+.health-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.health-mid{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.health-mid div p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.health-div img{
+    width: 295.23px;
+    height: 365.417px;
+}
+.health-cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    margin-top: 30px;
+}
+.med-prod{
+    font-size: 25px;
+    font-weight: 800;
+}
+.med-name{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(109, 109, 109);
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.med-desc{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.med-price{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.add-evtol{
+    width: 295px;
+    height: 35px;
+    background-color: rgb(252, 99, 74);
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.evt-model{
+    padding: 10px 10px 20px 10px;
+    width: 295px;
+    border: 1px solid gainsboro;
+}
+.evt-model div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.evt-model div:hover{
+    background-color: gainsboro;
+}

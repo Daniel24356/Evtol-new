@@ -1,0 +1,4 @@
+.header-hero{
+    background: radial-gradient(ellipse at center, rgb(212,213,217) 30%, rgb(240,241,245) 80%);
+    height: 100vh;
+}
