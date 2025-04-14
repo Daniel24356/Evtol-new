@@ -1,0 +1,94 @@
+.medication-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Headings */
+  .medication-container h2, .medication-container h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background: #007bff;
+    color: white;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+  }
+  
+  form input:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Buttons */
+  .med-add{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .med-add:hover {
+    background: #218838;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .medication-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    table th, table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  

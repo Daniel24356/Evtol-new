@@ -40,14 +40,20 @@
     column-gap: 25px;
 }
 .card-me{
-    border: 1px solid gainsboro;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px 0;
     border-radius: 20px;
+    transition: box-shadow 0.3s ease;
 }
+.card-me:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    cursor: pointer;  /* Darker shadow on hover */
+  }
 .card-div{
     width: 255px;
     height: 225.865px;
@@ -117,20 +123,39 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    backdrop-filter: blur(8px); /* Blurs the background */
+    z-index: 1000;
     /* backdrop-filter: blur(12px); */
     /* border: 1px solid gainsboro; */
 }
 .modal-ass{
     padding: 20px 30px;
     height: 90vh;
-    border: 1px solid gainsboro;
+    /* border: 1px solid gainsboro; */
     border-radius: 20px;
-    position: absolute;
-    top: 300px;
+    /* position: absolute;
+    top: 300px; */
     background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
+body.modal-open {
+    overflow: hidden;
+  }
+.close-btn{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
 .modal-div{
     display: flex;
     gap: 20px;
@@ -168,7 +193,20 @@
     align-items: center;
     justify-content: space-between;
 }
-.battery-readers{
+.battery-reader{
+    width: 239px;
+    height: 10px;
+    background-color:rgb(243, 241, 241);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.battery-fill {
+    height: 100%;
+    background-color: rgb(113, 202, 0); /* Green fill */
+    transition: width 0.5s ease-in-out;
+  }
+/* .battery-readers{
     width: 300px;
     height: 14px;
     display: flex;
@@ -187,7 +225,7 @@
     background-color: rgb(243, 241, 241);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+} */
 .checkout-btn{
     width: 300px;
     height: 45px;
@@ -198,6 +236,7 @@
     font-weight: 600;
     border: none;
     margin-top: 30px;
+    cursor: pointer;
 }
 .heah{
     display: flex;

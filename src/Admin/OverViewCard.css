@@ -1,0 +1,62 @@
+.overview-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 800px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  width: 230px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Color Themes */
+.blue {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+}
+
+.green {
+  background-color: #dcfce7;
+  color: #065f46;
+}
+
+.yellow {
+  background-color: #fef9c3;
+  color: #92400e;
+}
+
+.purple {
+  background-color: #ede9fe;
+  color: #581c87;
+}

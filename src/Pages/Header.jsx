@@ -12,11 +12,11 @@ const Header = () => {
             </div>
             <div className="header-mid">
                 <div>
-                    <p>Home</p>
+                <Link className="link-me" to="/"><p>Home</p></Link>
                     <MdKeyboardArrowDown/>
                 </div>
                 <div>
-                    <Link className="link-me" to="medicine"><p>Medication</p></Link>
+                    <Link className="link-me" to="/medicine"><p>Medication</p></Link>
                     <MdKeyboardArrowDown/>
                 </div>
                 <div>
@@ -24,15 +24,15 @@ const Header = () => {
                     <MdKeyboardArrowDown/>
                 </div>
                 <div>
-                    <p>Pages</p>
+                <Link className="link-me" to="/dashboard"><p>Dashboard</p></Link>
                     <MdKeyboardArrowDown/>
                 </div>
                 <div>
-                    <p>News</p>
+                <Link className="link-me" to="/login"><p>Login</p></Link>
                     <MdKeyboardArrowDown/>
                 </div>
                 <div>
-                    <p>Contact</p>
+                <Link className="link-me" to="/signup"><p>SignUp</p></Link>
                     <MdKeyboardArrowDown/>
                 </div>
             </div>
