@@ -16,6 +16,8 @@ const Forms = () => {
     confirmPassword: '',
   });
 
+  
+
   // Function to handle input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
