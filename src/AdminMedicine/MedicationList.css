@@ -68,9 +68,9 @@
     transition: 0.3s ease-in-out;
   }
   
-  .med-add:hover {
+  /* .med-add:hover {
     background: #218838;
-  }
+  } */
   
   /* Error Message */
   .error {
